@@ -1,0 +1,9 @@
+.list-item {
+    list-style-type: none; /* Removes the bullets */
+    margin-bottom: 15px; /* Adds space between each <li> */
+    border: 2px solid white; 
+    display: flex; 
+    flex-direction: row;
+    gap: 20px; 
+  }
+  

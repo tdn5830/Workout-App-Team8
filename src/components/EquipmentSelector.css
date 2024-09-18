@@ -1,0 +1,36 @@
+.equipment-item {
+    cursor: pointer;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+    border: 1px solid transparent;
+    transition: background-color 0.2s ease, border 0.2s ease;
+  }
+  
+  .equipment-item:hover {
+    border: 1px solid #007bff;
+  }
+  
+  .equipment-item.selected {
+    background-color: grey;
+    color: white;
+  }
+  
+  .equipment-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    object-fit: cover;
+  }
+  
+  .equipment-content {
+    display: flex;
+    align-items: center;
+  }
+  
+  .submit-button {
+    color: black;            
+    background-color: #D3D3D3; 
+  }
+  

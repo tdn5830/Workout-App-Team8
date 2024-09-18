@@ -1,0 +1,13 @@
+.parentContainer {
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    background-image: url('../assets/gymBackground.webp');
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center bottom; 
+    background-repeat: no-repeat; /* Prevents repeating */
+    display: flex; 
+    flex-direction: column;
+    justify-content: center; /* Centers content horizontally */
+    align-items: center; /* Centers content vertically */
+}
+  

@@ -1,0 +1,15 @@
+{
+    "machine": [
+      { "name": "benchpress", "icon": "/src/local_assets/benchpress.JPG" },
+      { "name": "legpress", "icon": "/src/local_assets/legpress.JPG" }
+    ],
+    "freeweights": [
+      { "name": "dumbbell", "icon": "/src/local_assets/dumbell.jpg" },
+      { "name": "kettlebell", "icon": "/src/local_assets/kettlebell.jpg" }
+    ],
+    "misc": [
+      { "name": "resistance_band", "icon": "/src/local_assets/bands.jpg" },
+      { "name": "jump_rope", "icon": "/src/local_assets/jumprope.jpg" }
+    ]
+  }
+  
