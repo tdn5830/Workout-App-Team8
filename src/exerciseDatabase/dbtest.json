@@ -1,0 +1,338 @@
+[
+    {
+        "name": "pushup",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "squat",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "plank",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "lunges",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "mountainclimbers",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "glutebridge",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "burpee",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "sideplank",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "tricepdip",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "arm",
+        "link": "none"
+    },
+    {
+        "name": "jumpingjacks",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "highknees",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "bicyclecrunches",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "wallsit",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "pikepushup",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "arm",
+        "link": "none"
+    },
+    {
+        "name": "superman",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "spidermancrawl",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "inchworm",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "bearcrawl",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "boxjump",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "flutterkicks",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "divebomberpushup",
+        "equipment": "body",
+        "difficulty": 3,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "skaterhop",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "diamondpushup",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "arm",
+        "link": "none"
+    },
+    {
+        "name": "handstandpushup",
+        "equipment": "body",
+        "difficulty": 3,
+        "target": "arm",
+        "link": "none"
+    },
+    {
+        "name": "hollowhold",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "broadjump",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "curtseylunge",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "reversecrunch",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "tuckjump",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "sumosquat",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "donkeykick",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "walkingsquat",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "jumpinglunge",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "sidelegraise",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "calfraise",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "armcircles",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "arm",
+        "link": "none"
+    },
+    {
+        "name": "upwarddog",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "bearplank",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "hipabduction",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "crabwalk",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "seatedtwist",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "russiantwist",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "scissorkicks",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "reverselunge",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "leg",
+        "link": "none"
+    },
+    {
+        "name": "burpeetuckjump",
+        "equipment": "body",
+        "difficulty": 3,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "vups",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "hinduplank",
+        "equipment": "body",
+        "difficulty": 2,
+        "target": "fullbody",
+        "link": "none"
+    },
+    {
+        "name": "boxerstance",
+        "equipment": "body",
+        "difficulty": 1,
+        "target": "fullbody",
+        "link": "none"
+    }
+]

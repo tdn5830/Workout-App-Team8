@@ -1,27 +1,21 @@
 import React from 'react';
-import './DifficultySelector.css'
+import './DifficultySelector.css';
 
 function DifficultySelector({ onNext }) {
 
-    // Function to map the ID to the corresponding target area
-    const handleDifficutlySelection = (id) => {
-        const difficultyMap = {
-            1: "beginner",
-            2: "intermediate",
-            3: "advanced"
-        };
-
-        // Call onNext with the corresponding target area
-        onNext({ difficulty: difficultyMap[id] });
+    // Function to pass the selected difficulty as an integer
+    const handleDifficultySelection = (difficulty) => {
+        
+        onNext({ difficulty });
     };
 
     return (
         <div>
-            <button onClick={() => handleDifficutlySelection(1)}>Beginner</button>
-            <button onClick={() => handleDifficutlySelection(2)}>Intermediate</button>
-            <button onClick={() => handleDifficutlySelection(3)}>Advanced</button>
+            <button onClick={() => handleDifficultySelection(1)}>Beginner</button>
+            <button onClick={() => handleDifficultySelection(2)}>Intermediate</button>
+            <button onClick={() => handleDifficultySelection(3)}>Advanced</button>
         </div>
     );
 }
 
-export default DifficultySelector
+export default DifficultySelector;

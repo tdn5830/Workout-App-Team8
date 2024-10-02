@@ -13,7 +13,7 @@ function HomePage() {
 
         <h1>Workout App</h1>
 
-        <Link to="/workoutGenerator">
+        <Link to="/inputForm">
           <button className='button'>Generate Workout</button>
         </Link>
         

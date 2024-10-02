@@ -11,7 +11,7 @@ function TargetAreaSelector({ onNext }) {
             3: "leg"
         };
 
-        onNext({ targetArea: targetMap[id] });
+        onNext({ target: targetMap[id] });
     };
 
     return (

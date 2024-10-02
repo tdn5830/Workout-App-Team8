@@ -1,0 +1,302 @@
+{
+    "push": [
+        {
+            "name": "pushup",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "R08gYyypGto"
+        },
+        {
+            "name": "Dips",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "barbellbenchpress",
+            "equipment": "barbell",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "dumbbellbenchpress",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "kettlebellfloorpress",
+            "equipment": "kettlebell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "resistancebandchestpress",
+            "equipment": "resistanceband",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "overheadbarbellpress",
+            "equipment": "barbell",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "dumbbellshoulderpress",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "kettlebellpress",
+            "equipment": "kettlebell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "resistancebandshoulderpress",
+            "equipment": "resistanceband",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "bandedpushups",
+            "equipment": "resistanceband",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "inclinebenchpress",
+            "equipment": "barbell",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "chestfly",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "pecdeckmachine",
+            "equipment": "machine",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "tricepspushdown",
+            "equipment": "cable",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "smithmachinepress",
+            "equipment": "smithmachine",
+            "difficulty": 1,
+            "link": "none"
+        }
+    ],
+    "pull": [
+        {
+            "name": "pullups",
+            "equipment": "body",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "assistedbandpullups",
+            "equipment": "resistanceband",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "barbellbentoverrow",
+            "equipment": "barbell",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "dumbbellrow",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "kettlebellrow",
+            "equipment": "kettlebell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "resistancebandrow",
+            "equipment": "resistanceband",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "latpulldown",
+            "equipment": "machine",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "seatedrow",
+            "equipment": "machine",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "uprightbarbellrow",
+            "equipment": "barbell",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "trxrow",
+            "equipment": "trx",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "facepull",
+            "equipment": "cable",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "kettlebellhighpull",
+            "equipment": "kettlebell",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "dumbbellpullover",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        }
+    ],
+    "hinge": [
+        {
+            "name": "bodyweightsquat",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "42bFodPahBU"
+        },
+        {
+            "name": "walkinglunges",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "barbellbacksquat",
+            "equipment": "barbell",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "dumbbellsquat",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "kettlebellgobletsquat",
+            "equipment": "kettlebell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "resistancebandsquat",
+            "equipment": "resistanceband",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "barbelldeadlift",
+            "equipment": "barbell",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "dumbbelldeadlift",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "kettlebelldeadlift",
+            "equipment": "kettlebell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "resistancebanddeadlift",
+            "equipment": "resistanceband",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "barbellhipthrust",
+            "equipment": "barbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "dumbbellhipthrust",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "kettlebellhipthrust",
+            "equipment": "kettlebell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "resistancebandglutebridges",
+            "equipment": "resistanceband",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "romaniandeadlift",
+            "equipment": "barbell",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "legpress",
+            "equipment": "machine",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "hacksquat",
+            "equipment": "machine",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "smithmachinesquat",
+            "equipment": "smithmachine",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "kettlebellswing",
+            "equipment": "kettlebell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "walkinglunges",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        }
+    ]
+}
