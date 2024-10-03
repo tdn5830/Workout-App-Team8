@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import './Timer.css';
 
 function CountdownTimer({ time }) {
   const [secondsRemaining, setSecondsRemaining] = useState(time);
@@ -26,7 +27,7 @@ function CountdownTimer({ time }) {
 
   return (
     <div>
-      <h2>{formatTime()}</h2>
+      <h1 className='timer-display'>{formatTime()}</h1>
     </div>
   );
 }

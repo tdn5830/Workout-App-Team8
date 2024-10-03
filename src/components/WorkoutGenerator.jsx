@@ -128,7 +128,7 @@ function WorkoutGenerator() {
                 </ul>
                 <Link 
                         to="/workoutPage"
-                        state={{ workoutList: workout }}  
+                        state={{ workoutList: workout, time: formData.time  }}  
                 >
                     <button className='button'>Start Workout</button>
                 </Link>
