@@ -4,6 +4,7 @@ import './WorkoutPage.css'
 import Timer from './Timer.jsx';
 import VideoPlayer from './VideoPlayer.jsx';
 import HelpIcon from '../local_assets/helpSVG.jsx';
+import HelpIconDisabled from '../local_assets/helpDisabledSVG.jsx'
 import Banner from './Banner.jsx';
 
 // This component accepts a prop (workoutList). Instead of the typical syntax for accepting props, useLocation is used
@@ -73,7 +74,7 @@ function WorkoutPage() {
               ></button>
               <p>{workout.name}</p>
               <p>2 Sets | 8 Reps</p>
-              <button className="help-button" onClick={() => openVideoPlayer(workout.link)}><HelpIcon></HelpIcon></button>
+              <button className="help-button" onClick={() => openVideoPlayer(workout.link)}><HelpIcon/></button>
             </li>
           ))}
         </ul>
@@ -89,7 +90,7 @@ function WorkoutPage() {
               ></button>
               <p>{workout.name}</p>
               <p>2 Sets | 8 Reps</p>
-              <button className="help-button inactive" disabled>help</button>
+              <button className="help-button inactive" disabled><HelpIconDisabled/></button>
             </li>
             ))}
           </ul>

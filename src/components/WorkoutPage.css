@@ -5,7 +5,11 @@
   flex-direction: column;
   justify-content: center;
   align-items: center; 
-  background-color: #e7ecef
+  background-color: #e7ecef;
+  background-image: url('../local_assets/background1.webp');
+  background-size: cover; 
+  background-position: center bottom; 
+  background-repeat: no-repeat; /* Prevents repeating */
 }
 
 /* Progress bar container */
@@ -13,7 +17,7 @@
   width: 100vw; 
   max-width: 80%;
   height: 20px;
-  background-color: #e0e0e0;
+  background-color: #c4bdb6;
   border-radius: 10px;
   overflow: hidden;
   margin: 20px 0;
@@ -22,13 +26,13 @@
 /* progress bar */
 .progress-bar {
   height: 100%;
-  background-color: #4caf50; /* Green progress color */
+  background-color: orange; 
   width: 0;
   transition: width 0.3s ease-in-out;
 }
 
 .list-container {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.795);
   width: 60%;
   border-radius: 8px;
 }
@@ -58,41 +62,38 @@
   width: 20px;
   border-radius: 50%;
   margin-right: 10px;
-  border: 2px solid #4CAF50; /* Green border for active items */
-  background-color: white;
+  border: 2px solid orange; 
+  background-color: transparent;
   cursor: pointer;
   transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .checklistButton:hover {
-  background-color: #4CAF50; /* Green when hovering over active button */
-  border-color: #388E3C; /* Darker green when hovered */
+  background-color: orange;
+  border-color: orange;
 }
 
 .checklistButton.inactive {
-  border: 2px solid #BDBDBD; /* Light gray border for completed items */
-  background-color: #E0E0E0; /* Light gray background for completed button */
-  cursor: not-allowed; /* Not clickable */
+  border: 2px solid #BDBDBD; 
+  background-color: #E0E0E0; 
+  cursor: not-allowed; 
 }
 
 /* Help button for each workout */
 .help-button {
   padding: 5px 10px;
-  border: 1px solid #4CAF50; /* Green border */
-  background-color: white;
+  background-color: transparent;
   color: #4CAF50;
   cursor: pointer;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .help-button:hover {
-  background-color: #4CAF50; /* Green background when hovered */
+  background-color: #b9883e; 
   color: white;
 }
 
 .help-button.inactive {
-  border: 1px solid #BDBDBD; /* Light gray border for completed help buttons */
-  background-color: #E0E0E0; /* Light gray background */
-  color: #9E9E9E; /* Gray text */
-  cursor: not-allowed; /* Not clickable */
+  color: #9E9E9E; 
+  cursor: not-allowed; 
 }
