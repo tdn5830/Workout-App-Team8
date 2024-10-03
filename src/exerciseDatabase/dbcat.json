@@ -7,9 +7,33 @@
             "link": "R08gYyypGto"
         },
         {
+            "name": "Knee Push-ups",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
             "name": "Dips",
             "equipment": "body",
             "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "Bicyle Crunches",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "diamond push-up",
+            "equipment": "body",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "Pike Pushup",
+            "equipment": "body",
+            "difficulty": 2,
             "link": "none"
         },
         {
@@ -99,8 +123,38 @@
     ],
     "pull": [
         {
-            "name": "pullups",
+            "name": "plank",
             "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "burpee",
+            "equipment": "body",
+            "difficulty": 2,
+            "link": "none"
+        },
+        {
+            "name": "Wall Push Ups",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "Sit Ups",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "Doorway Curls",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "pullups",
+            "equipment": "pullupbar",
             "difficulty": 2,
             "link": "none"
         },
@@ -179,6 +233,18 @@
     ],
     "hinge": [
         {
+            "name": "Side Leg Raise",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "glute bridge",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
             "name": "bodyweightsquat",
             "equipment": "body",
             "difficulty": 1,
@@ -186,6 +252,12 @@
         },
         {
             "name": "walkinglunges",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
+            "name": "jump squat",
             "equipment": "body",
             "difficulty": 1,
             "link": "none"
@@ -289,12 +361,6 @@
         {
             "name": "kettlebellswing",
             "equipment": "kettlebell",
-            "difficulty": 1,
-            "link": "none"
-        },
-        {
-            "name": "walkinglunges",
-            "equipment": "body",
             "difficulty": 1,
             "link": "none"
         }
