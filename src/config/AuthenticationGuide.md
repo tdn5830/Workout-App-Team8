@@ -18,7 +18,7 @@ from Google login page is displayed. Since Google handles the Authentication for
 
 1. Checking User Authentication Status 
 
-You can use Firebase's onAuthStateChanged method to track the user's authentication status. Here’s an example:
+You can use Firebase's onAuthStateChanged() method to track the user's authentication status. Here’s an example:
 
 ```javascript
 
@@ -122,3 +122,13 @@ function ProtectedPage() {
 
 export default ProtectedPage;
 ```
+
+# Note 
+For a complete example of how the user authentication flow works, check out HomePage.jsx where the following is handled
+1. Signing in
+2. Checking authentication status
+3. Logging out
+
+To make things simple for now, the user will sign-in via the HomePage component. That means that the login method doesn't have to be used in other pages.
+However, in pages where authentication is required (Like the gym profiles page), you should check for authentication status and redirect unsigned in users to the homepage
+with the functions shown above in this guide. 
