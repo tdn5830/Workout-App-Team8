@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import LogoIcon from '../local_assets/logoSVG.jsx';
+import HomeIcon from '../local_assets/homebutton.svg'
 import './Banner.css';
 
 function Banner() {
@@ -9,11 +10,15 @@ function Banner() {
 
     return (
         <div className='bannerParent'>
-            <LogoIcon/>
-            <p className='bannerText'>EzFit</p>
-            <Link to="/">
-                <button className='button'>Home Button</button>
-            </Link>
+            <div className="logo-container">
+                <LogoIcon/>
+                <p className='bannerText'>EzFit</p>
+            </div>
+            <div className="button-container">
+                <Link to="/">
+                    <img src={HomeIcon} alt="Home Icon" className='icon' />
+                </Link>
+            </div>
         </div>
     );
 }

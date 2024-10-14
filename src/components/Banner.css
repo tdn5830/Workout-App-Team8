@@ -4,6 +4,7 @@
     background-color: orange;
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -12,4 +13,20 @@
     font-size: 40px;
     font-family: Georgia, serif;
     font-weight: bold;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    width: 36px; 
+    height: 36px;
+    margin-right: 10px;
 }
