@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import './InputForm.css'
+import Banner from './Banner.jsx';
 import EquipmentSelector from './EquipmentSelector.jsx';
 import TargetAreaSelector from './TargetAreaSelector.jsx';
 import DifficultySelector from './DifficultySelector.jsx';
@@ -39,6 +40,7 @@ function InputForm() {
 
     return (
         <div>
+          <Banner></Banner>
           {currentStep === 1 && <EquipmentSelector onNext={handleNext} />}
           {currentStep === 2 && <TargetAreaSelector onNext={handleNext} />}
           {currentStep === 3 && <DifficultySelector onNext={handleNext} />}

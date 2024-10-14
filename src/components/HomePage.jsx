@@ -53,7 +53,7 @@ function HomePage() {
           )}
         </div>
 
-        <h1>Workout App</h1>
+        <h1>EzFit</h1>
 
         <Link to="/inputForm">
           <button className='button'>Generate Workout</button>
@@ -61,7 +61,7 @@ function HomePage() {
 
         {/* Only render the following buttons if the user is logged in */}
       {user && (
-        <Link to="/gymProfiles">
+        <Link to="/gymProfilePage">
           <button className='button'>Gym Profiles</button>
         </Link>
       )}

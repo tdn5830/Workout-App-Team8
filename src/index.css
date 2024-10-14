@@ -22,15 +22,27 @@ a:hover {
   color: #535bf2;
 }
 
-body {
+html, body {
+  height: 100%;
   margin: 0;
-  padding: 0;/* new */
-  overflow-x: hidden; /* Prevent horizontal scrollbars */
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal bars if content overflows */
 }
+
+
+/*Old body settings (html class did not exist in previous commit) */
+/*body { */
+/*  margin: 0; */
+/*  padding: 0; new */
+/*  overflow-x: hidden; Prevent horizontal scrollbars */
+/*  display: flex; */
+/*  place-items: center; */
+/*  min-width: 320px; */
+/*  min-height: 100%;  CHANGE MADE HERE, test on laptop screen (OG value: 100vh) */
+/* } */
+
+
 
 h1 {
   font-size: 3.2em;
