@@ -22,13 +22,21 @@ function WorkoutPage() {
   const [activeWorkouts, setActiveWorkouts] = useState(workoutList);
   const [completedWorkouts, setCompletedWorkouts] = useState([]);
   const [progress, setProgress] = useState(0); // State for progress bar
+  const [setsAndReps, setSetsAndReps] = useState(""); // String variable to store the amount of sets and reps required based on user's time input
 
   useEffect(() => {
     // Check if workoutList has exercises before marking it as loaded
     if (workoutList && workoutList.length > 0) {
       setIsWorkoutLoaded(true);
+
+      // Set the amount of sets and reps based on user's time input
+      if (workoutTimeInMinutes >= 15 && workoutTimeInMinutes <= 19) {
+        setSetsAndReps("2 Sets | 8 Reps");
+      } else if (workoutTimeInMinutes >= 20 && workoutTimeInMinutes <= 60) {
+        setSetsAndReps("3 Sets | 8 Reps");
+      }
     }
-  }, [workoutList]);
+  }, [workoutList, workoutTimeInMinutes]);
   
   const openVideoPlayer = (link) => {
     setVideoLink(link); // Update the correct youtube link for video to be played
@@ -50,9 +58,13 @@ function WorkoutPage() {
     setProgress(((completedWorkouts.length + 1) / workoutList.length) * 100); // Update progress bar
   };
 
-  // Only render content if the workoutList is properly loaded
+  // Only render content if the workoutList and setsAndReps is properly loaded
   if (!isWorkoutLoaded) {
     return <p>Loading workout...</p>; // Show a loading message until workoutList is loaded
+  }
+
+  if (setsAndReps === "") {
+    return <p>Loading workout...</p>;
   }
   
   return (
@@ -73,7 +85,7 @@ function WorkoutPage() {
                 onClick={() => handleComplete(index)}
               ></button>
               <p>{workout.name}</p>
-              <p>2 Sets | 8 Reps</p>
+              <p>{setsAndReps}</p>
               <button className="help-button" onClick={() => openVideoPlayer(workout.link)}><HelpIcon/></button>
             </li>
           ))}
@@ -89,7 +101,7 @@ function WorkoutPage() {
                 disabled
               ></button>
               <p>{workout.name}</p>
-              <p>2 Sets | 8 Reps</p>
+              <p>{setsAndReps}</p>
               <button className="help-button inactive" disabled><HelpIconDisabled/></button>
             </li>
             ))}

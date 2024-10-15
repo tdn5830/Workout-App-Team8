@@ -44,9 +44,20 @@ function WorkoutGenerator() {
         let numberPushExercises = 0;
         let numberHingeExercises = 0;
 
-        numberPullExercises = 2;
-        numberPushExercises = 2;
-        numberHingeExercises = 2;
+    
+        if (totalTime >= 15 && totalTime <= 19) {
+            numberPushExercises = 2;
+            numberPullExercises = 1;
+            numberHingeExercises = 1;
+        } else if (totalTime >= 20 && totalTime <= 29) {
+            numberPushExercises = 2;
+            numberPullExercises = 2;
+            numberHingeExercises = 1;
+        } else if (totalTime >= 30 && totalTime <= 60) {
+            numberPushExercises = 2;
+            numberPullExercises = 2;
+            numberHingeExercises = 2;
+        } 
 
         // 2. Loop through equipment array and find possible Pull, Push, Hinge exercises
 

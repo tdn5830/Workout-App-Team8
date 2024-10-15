@@ -4,19 +4,19 @@
             "name": "Knee Push-ups",
             "equipment": "body",
             "difficulty": 1,
-            "link": "none"
+            "link": "jWxvty2KROs"
         },
         {
             "name": "Bodyweight Dips",
             "equipment": "body",
             "difficulty": 1,
-            "link": "none"
+            "link": "JhX1nBnirNw"
         },
         {
-            "name": "Bicyle Crunches",
+            "name": "Burpee",
             "equipment": "body",
-            "difficulty": 1,
-            "link": "none"
+            "difficulty": 2,
+            "link": "818SkLAPyKY"
         },
         {
             "name": "Dumbell Chestflys",
@@ -99,10 +99,16 @@
     ],
     "pull": [
         {
-            "name": "Plank",
+            "name": "Plank Taps",
             "equipment": "body",
             "difficulty": 1,
-            "link": "none"
+            "link": "QGnz__47PCo"
+        },
+        {
+            "name": "Bicyle Crunches",
+            "equipment": "body",
+            "difficulty": 1,
+            "link": "-nJkAJpQemI"
         },
         {
             "name": "Lat Pulldown",
@@ -111,16 +117,10 @@
             "link": "none"
         },
         {
-            "name": "Burpee",
-            "equipment": "body",
-            "difficulty": 2,
-            "link": "none"
-        },
-        {
             "name": "Doorway Curls",
             "equipment": "body",
             "difficulty": 1,
-            "link": "none"
+            "link": "134v7cB-1W8"
         },
         {
             "name": "Pullups",
@@ -200,7 +200,7 @@
             "name": "Glute Bridge",
             "equipment": "body",
             "difficulty": 1,
-            "link": "none"
+            "link": "9qo48CYN06w"
         },
         {
             "name": "Bodyweight Squat",
@@ -212,7 +212,7 @@
             "name": "Walking Lunges",
             "equipment": "body",
             "difficulty": 1,
-            "link": "none"
+            "link": "tQNktxPkSeE"
         },
         {
             "name": "Dumbbell Squat",
