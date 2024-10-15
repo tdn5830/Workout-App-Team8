@@ -1,7 +1,12 @@
 {
     "machine": [
       { "name": "benchpress", "icon": "/src/local_assets/benchpress.JPG" },
-      { "name": "legpress", "icon": "/src/local_assets/legpress.JPG" }
+      { "name": "legpress", "icon": "/src/local_assets/legpress.JPG" },
+      { "name": "latpulldown", "icon": "/src/local_assets/latpulldown.webp"},
+      { "name": "chestpress", "icon": "/src/local_assets/chestpressmachine.webp" },
+      { "name": "squatrack", "icon": "/src/local_assets/squatrack.webp" },
+      { "name": "hip abductor", "icon": "/src/local_assets/hipabductor.webp" },
+      { "name": "cable", "icon": "/src/local_assets/cablemachine.jpg" }
     ],
     "freeweights": [
       { "name": "dumbbell", "icon": "/src/local_assets/dumbell.jpg" },

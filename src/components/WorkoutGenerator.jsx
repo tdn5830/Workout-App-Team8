@@ -122,7 +122,7 @@ function WorkoutGenerator() {
                 <ul>
                     {workout.map((exercise, index) => (
                         <li key={index}>
-                            <strong>{exercise.name}</strong> - {exercise.equipment} - Difficulty: {exercise.difficulty}
+                            <strong>{exercise.name}</strong> - {exercise.equipment} 
                         </li>
                     ))}
                 </ul>
