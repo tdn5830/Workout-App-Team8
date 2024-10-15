@@ -31,19 +31,15 @@ function WorkoutGenerator() {
         const userEquipmentArray = formData.equipment;
         const userDifficultyLevel = formData.difficulty;
 
-        //move these arrays outside of current scope to allow regeneration
         let possiblePull = [];
         let possiblePush = [];
         let possibleHinge = [];
 
         // 1. Determine number of exercises from each category (Pull, Push, Hinge) determined by time
-        const timePerExercise = 4; // assuming 4 minutes per exercise
-        const totalExercises = Math.floor(totalTime / timePerExercise); // calculate total number of exercises
 
         let numberPullExercises = 0;
         let numberPushExercises = 0;
         let numberHingeExercises = 0;
-
     
         if (totalTime >= 15 && totalTime <= 19) {
             numberPushExercises = 2;
@@ -96,7 +92,15 @@ function WorkoutGenerator() {
 
         // 5. Combine all three exercise arrays into a final list of exercises
 
-        //move this function outside of generateWorkout()
+        /*
+            assume in the json db, a new attribute added to each exercise is called "group"
+
+            exercises are sometimes chosen but theyre the same group type (like dumbell press and kettlebell press)
+
+            add logic in the random selection process that when a new exercise is picked, we filter the array of possible exercises to exclude exercies that are in the same "group"
+
+            if an exercise doesnt belong in a group, then the default value is "none", so make sure that we're also not filtering by "none"
+        */
         const getRandomExercises = (exerciseList, count) => {
             const selectedExercises = [];
             for (let i = 0; i < count; i++) {

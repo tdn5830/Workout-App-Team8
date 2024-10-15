@@ -1,3 +1,14 @@
-.class1 {
-    display: flex;
+.gymprofile-container {
+    width: 100vw; 
+    height: 100vh; 
+    background-image: url('../local_assets/gymprofilebackground.webp');
+    background-size: cover; 
+    background-position: center bottom; 
+    background-repeat: no-repeat; /* Prevents repeating */
+}
+
+.box {
+    background-color: black;
+    width: 40%;
+    height: 70px;
 }

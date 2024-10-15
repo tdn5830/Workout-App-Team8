@@ -15,9 +15,11 @@ function GymProfilePage() {
     //in Banner.jsx add homebutton opttion
 
     return (
-        <div>
+        <div className="gymprofile-container">
             <Banner></Banner>
+            <div className="box">
             <h1>Gym profiles page</h1>
+            </div>
         </div>
     );
 }
