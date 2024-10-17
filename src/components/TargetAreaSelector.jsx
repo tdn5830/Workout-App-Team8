@@ -16,6 +16,7 @@ function TargetAreaSelector({ onNext }) {
 
     return (
         <div>
+            <h1>Select Target Area</h1>
             <button onClick={() => handleTargetSelection(1)}>Arms</button>
             <button onClick={() => handleTargetSelection(2)}>Full Body</button>
             <button onClick={() => handleTargetSelection(3)}>Legs</button>

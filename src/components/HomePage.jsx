@@ -53,7 +53,7 @@ function HomePage() {
           )}
         </div>
 
-        <h1>EzFit</h1>
+        <h1 className='ezFitText'>EzFit</h1>
 
         <Link to="/inputForm">
           <button className='button'>Generate Workout</button>
@@ -67,7 +67,7 @@ function HomePage() {
       )}
         
       </div>
-    )
+    );
   }
   
   export default HomePage

@@ -11,6 +11,7 @@ function DifficultySelector({ onNext }) {
 
     return (
         <div>
+            <h1>Select Difficulty Level</h1>
             <button onClick={() => handleDifficultySelection(1)}>Beginner</button>
             <button onClick={() => handleDifficultySelection(2)}>Intermediate</button>
             <button onClick={() => handleDifficultySelection(3)}>Advanced</button>

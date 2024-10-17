@@ -39,18 +39,21 @@ function TimeSelector({ onNext }) {
 
     return (
         <div>
-            <h1>Time selector page</h1>
+            <h1>Select Time for Workout</h1>
+            <div className='timer-box'>
                 <input 
-                  type="number"
-                  min={minTime}
-                  max={maxTime}
-                  value={inputTime}
-                  step="5"
-                  onChange={handleInputChange}
-                  placeholder="Enter Time"
-                  className="timer-input"
+                    type="number"
+                    min={minTime}
+                    max={maxTime}
+                    value={inputTime}
+                    step="5"
+                    onChange={handleInputChange}
+                    placeholder="Enter Time"
+                    className="timer-input"
                 />
-                <button onClick={handleSubmit}>Submit</button>
+                <h2>Minutes</h2>
+            </div>
+            <button onClick={handleSubmit}>Submit</button>
         </div>
     );
 }

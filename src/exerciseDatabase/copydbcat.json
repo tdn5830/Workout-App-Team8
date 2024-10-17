@@ -97,6 +97,12 @@
             "link": "lJ2o89kcnxY"
         },
         {
+            "name": "Dumbell Chestflys",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
             "name": "Chest Press",
             "equipment": "chestpress",
             "difficulty": 1,
@@ -113,12 +119,6 @@
         {
             "name": "Plank",
             "equipment": "body",
-            "difficulty": 1,
-            "link": "none"
-        },
-        {
-            "name": "Dumbell Chestflys",
-            "equipment": "dumbbell",
             "difficulty": 1,
             "link": "none"
         },

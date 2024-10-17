@@ -61,6 +61,12 @@
             "link": "none"
         },
         {
+            "name": "Dumbbell Curl",
+            "equipment": "dumbbell",
+            "difficulty": 1,
+            "link": "none"
+        },
+        {
             "name": "Kettlebell Press",
             "equipment": "kettlebell",
             "difficulty": 1,
