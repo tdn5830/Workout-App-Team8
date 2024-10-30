@@ -19,3 +19,59 @@
     align-items: left;
 }
 
+.button-container-gym-profiles {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.button-container-gym-profiles button {
+    width: 40%; 
+    padding: 10px 20px; 
+    font-size: 1.2em; 
+}
+
+.user-gyms-dropdown {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 80%;
+    background-color: rgba(255, 255, 255, 0.8); 
+    border-radius: 15px;             
+    padding: 5px;                   
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    color: black;
+}
+
+.gym-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gym-item-button {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    background-color: orange;
+    border-radius: 8px; 
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.gym-item-button:hover {
+    background-color: #d75a07; 
+    transform: scale(1.02); /* Slight zoom on hover */
+}
+
+.gym-icon {
+    width: 48px;
+    height: 48px;
+    margin-right: 10px;
+}
