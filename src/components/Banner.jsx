@@ -4,8 +4,7 @@ import LogoIcon from '../local_assets/logoSVG.jsx';
 import HomeIcon from '../local_assets/homebutton.svg'
 import './Banner.css';
 
-function Banner() {
-
+function Banner({text}) {
 
 
     return (
@@ -13,6 +12,9 @@ function Banner() {
             <div className="logo-container">
                 <LogoIcon/>
                 <p className='bannerText'>EzFit</p>
+            </div>
+            <div className='page-text'>
+                {text && <p>{text}</p>} {/* Conditionally render text if text prop was passed in */}
             </div>
             <div className="button-container">
                 <Link to="/">

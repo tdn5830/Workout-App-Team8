@@ -16,9 +16,9 @@ function GymProfilePage() {
 
     return (
         <div className="gymprofile-container">
-            <Banner></Banner>
-            <div className="box">
-            <h1>Gym profiles page</h1>
+            <Banner text="Gym Profiles Page"></Banner>
+            <div>
+                <button>Create New Gym</button>
             </div>
         </div>
     );
