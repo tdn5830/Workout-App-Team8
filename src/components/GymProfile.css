@@ -1,0 +1,95 @@
+.gym-profile-container {
+    width: 100vw; 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid white;
+    gap: 10px;
+    align-items: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.gym-info-container {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid red;
+    width: 100%;
+    height: 40%;
+}
+
+.gym-image-container {
+    border: 2px solid white;
+    width: 40%;
+}
+
+.gym-stats-container {
+    border: 2px solid white;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gym-equipment-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid white;
+    width: 80%;
+}
+
+.equipment-columns {
+    display: flex;
+    flex-direction: row;
+}
+
+.gym-workouts-container {
+    display: flex;
+    border: 2px solid white;
+    width: 80%;
+}
+
+.gym-profile-picture {
+    width: 100%;
+    height: 100%;
+}
+
+.stat-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 2px solid white;
+    width: 80%;
+}
+
+.highlight { 
+    color: orange; 
+    font-weight: bold; 
+}
+
+.equipment-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px; 
+}
+
+.equipment-listItem {
+    display: flex; 
+    justify-content: center; 
+    margin: 10px; 
+}
+
+.equipment-listIcon {
+    width: 64px;
+    height: 64px;
+    object-fit: cover;
+}
+
+.no-equipment {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: gray; 
+}
+
