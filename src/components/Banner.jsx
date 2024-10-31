@@ -17,7 +17,7 @@ function Banner({text}) {
                 {text && <p>{text}</p>} {/* Conditionally render text if text prop was passed in */}
             </div>
             <div className="button-container">
-                <Link to="/" className="button-container">
+                <Link to="/">
                     <img src={HomeIcon} alt="Home Icon" className='icon' />
                 </Link>
             </div>
