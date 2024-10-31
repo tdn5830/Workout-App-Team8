@@ -6,6 +6,7 @@ import InputForm from './components/InputForm.jsx'
 import WorkoutPage from './components/WorkoutPage.jsx';
 import WorkoutGenerator from './components/WorkoutGenerator.jsx';
 import GymProfilePage from './components/GymProfilePage.jsx';
+import GymProfileCreator from './components/GymProfileCreator.jsx';
 import WorkoutList from './exerciseDatabase/db.json';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path="/workoutPage" element={<WorkoutPage />} />
         <Route path="/workoutGenerator" element={<WorkoutGenerator />} />
         <Route path="/gymProfilePage" element={<GymProfilePage />} />
+        <Route path="/gymCreator" element={<GymProfileCreator />} />
       </Routes>
     </Router>
   );

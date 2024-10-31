@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import './GymProfilePage.css';
 import { useNavigate } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import Banner from './Banner.jsx';
 
 function GymProfilePage() {
@@ -41,23 +42,27 @@ function GymProfilePage() {
             <Banner text="Gym Profiles Page"></Banner>
 
             <div className="button-container-gym-profiles">
-                <button>Create New Gym</button>
+                <Link to='/GymCreator' className="button-container-gym-profiles">
+                    <button>Create New Gym</button>
+                </Link>
             </div>
 
             <div className="user-gyms-dropdown">
                 <h1>My Gyms</h1>
                 {savedGyms.length > 0 ? (
-                    <div className="gym-list">
-                        {savedGyms.map((gym) => (
-                            <li
-                                key={gym.id}
-                                className="gym-item-button"
-                                onClick={() => handleSelectGym(gym)}
-                            >
-                            <img src="/src/local_assets/weightIcon.png" alt="gym icon" className="gym-icon" /> 
-                            <span>{gym.name}</span>
-                            </li>
-                        ))}
+                    <div >
+                        <ul className="gym-list">
+                            {savedGyms.map((gym) => (
+                                <li
+                                    key={gym.id}
+                                    className="gym-item-button"
+                                    onClick={() => handleSelectGym(gym)}
+                                >
+                                <img src="/src/local_assets/weightIcon.png" alt="gym icon" className="gym-icon" /> 
+                                <span>{gym.name}</span>
+                                </li>
+                            ))}
+                        </ul>
                     </div>
                 ) : (
                     <h1>No Gyms Found</h1>
