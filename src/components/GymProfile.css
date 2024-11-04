@@ -3,7 +3,6 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    border: 2px solid white;
     gap: 10px;
     align-items: center;
     overflow-y: auto;
@@ -13,18 +12,15 @@
 .gym-info-container {
     display: flex;
     flex-direction: row;
-    border: 2px solid red;
     width: 100%;
     height: 40%;
 }
 
 .gym-image-container {
-    border: 2px solid white;
     width: 40%;
 }
 
 .gym-stats-container {
-    border: 2px solid white;
     width: 60%;
     display: flex;
     flex-direction: column;
@@ -35,8 +31,11 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid white;
+    background-color: rgba(211, 211, 211, 0.8); /* Light gray with 80% opacity */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
     width: 80%;
+    color: black;
 }
 
 .equipment-columns {
@@ -46,8 +45,12 @@
 
 .gym-workouts-container {
     display: flex;
-    border: 2px solid white;
+    background-color: rgba(211, 211, 211, 0.8); /* Light gray with 80% opacity */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+    color: black;
     width: 80%;
+    flex-direction: column;
 }
 
 .gym-profile-picture {
@@ -59,7 +62,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    border: 2px solid white;
     width: 80%;
 }
 

@@ -31,6 +31,27 @@
   transition: width 0.3s ease-in-out;
 }
 
+.warmup-container {
+  background-color: rgba(255, 255, 255, 0.795);
+  width: 60%;
+  border-radius: 8px;
+  color: black;
+}
+
+.warmup-list {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  width: 95%;
+  margin: 10px auto; 
+}
+
+.warmup-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
 .list-container {
   background-color: rgba(255, 255, 255, 0.795);
   width: 60%;
@@ -96,4 +117,9 @@
 .help-button.inactive {
   color: #9E9E9E; 
   cursor: not-allowed; 
+}
+
+
+.arrow-icon {
+  color: orange;
 }

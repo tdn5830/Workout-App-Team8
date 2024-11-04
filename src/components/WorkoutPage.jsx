@@ -23,6 +23,15 @@ function WorkoutPage() {
   const [completedWorkouts, setCompletedWorkouts] = useState([]);
   const [progress, setProgress] = useState(0); // State for progress bar
   const [setsAndReps, setSetsAndReps] = useState(""); // String variable to store the amount of sets and reps required based on user's time input
+  const [isWarmupOpen, setIsWarmupOpen] = useState(false);
+
+  const warmupExercises = [
+    { name: 'Jumping Jacks', time: '1 minute' },
+    { name: 'High Knees', time: '30 seconds' },
+    { name: 'Arm Circles', time: '30 seconds' },
+    { name: 'Bodyweight Squats', time: '15 reps' },
+    { name: 'Leg Swings', time: '10 swings per leg' },
+  ];
 
   useEffect(() => {
     // Check if workoutList has exercises before marking it as loaded
@@ -75,6 +84,20 @@ function WorkoutPage() {
       </div>
 
       <Timer time={workoutTimeInSeconds} />
+
+      <div className="warmup-container">
+        <p onClick={() => setIsWarmupOpen(!isWarmupOpen)} style={{ cursor: 'pointer' }}>Warmup <span className='arrow-icon'>▼</span></p>
+        {isWarmupOpen && (
+          <ul className="warmup-list">
+            {warmupExercises.map((exercise, index) => (
+              <li key={index} className='warmup-item'>
+                <p>{exercise.name}</p>
+                <p>{exercise.time}</p>
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
       <div className='list-container'>
         {/* Active Workouts */}
         <ul>

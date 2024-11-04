@@ -61,9 +61,12 @@ function HomePage() {
 
         {/* Only render the following buttons if the user is logged in */}
       {user && (
-        <Link to="/gymProfilePage">
-          <button className='button'>Gym Profiles</button>
-        </Link>
+        <div>
+          <Link to="/gymProfilePage">
+            <button className='button'>Gym Profiles</button>
+          </Link>
+          <button>Profile & Stats</button>
+        </div>
       )}
         
       </div>

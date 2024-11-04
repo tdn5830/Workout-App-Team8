@@ -27,7 +27,7 @@ function GymProfile() {
                     <img src={item.icon} alt={item.name} className="equipment-listIcon" />
                 </div>
             ));
-            
+
         if (foundEquipment.length === 0) {
             return (
                 <div className="no-equipment">
@@ -87,7 +87,8 @@ function GymProfile() {
                 </div>
             </div>
             <div className="gym-workouts-container">
-                <p>GYm workouts</p>
+                <h2>Workouts</h2>
+                <button>Create Workout</button>
             </div>  
         </div>
     );
