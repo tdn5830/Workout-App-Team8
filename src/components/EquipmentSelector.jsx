@@ -83,7 +83,7 @@ function EquipmentSelector({ onNext }) {
         )}
       </div>
 
-    <button onClick = {() => handleSubmit()}className='submit-button'>Submit</button>
+    <button onClick = {() => handleSubmit()} className='submit-button'>Submit</button>
     </div>
   );
 }
