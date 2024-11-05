@@ -3,12 +3,15 @@ import { useLocation } from 'react-router-dom';
 import './GymProfile.css';
 import Banner from './Banner.jsx';
 import equipmentData from '../local_assets/equipment.json';
+import { useNavigate } from 'react-router-dom';
 function GymProfile() {
     // Use useLocation to retrieve the workoutList passed from the previous page
     const location = useLocation();
     const { gymID, gymName, equipment } = location.state || {};
 
     const [isLoaded, setIsLoaded] = useState(false);
+
+    const navigate = useNavigate();
     
     useEffect(() => {
         // Check if all props are defined
@@ -37,6 +40,11 @@ function GymProfile() {
         }
 
         return foundEquipment;
+    };
+
+    // Navigate to input form to create workout. Pass in equipment array from this gym's profile
+    const handleInputForm = () => {
+        navigate('/authInputForm', { state: equipment });
     };
 
     if (!isLoaded) {
@@ -88,7 +96,7 @@ function GymProfile() {
             </div>
             <div className="gym-workouts-container">
                 <h2>Workouts</h2>
-                <button>Create Workout</button>
+                <button onClick={()=>handleInputForm()}>Create Workout</button>
             </div>  
         </div>
     );

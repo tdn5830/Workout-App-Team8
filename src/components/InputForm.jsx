@@ -40,7 +40,7 @@ function InputForm() {
 
     return (
         <div>
-          <Banner></Banner>
+          <Banner text="Generate workout"></Banner>
           {currentStep === 1 && <EquipmentSelector onNext={handleNext} />}
           {currentStep === 2 && <TargetAreaSelector onNext={handleNext} />}
           {currentStep === 3 && <DifficultySelector onNext={handleNext} />}
