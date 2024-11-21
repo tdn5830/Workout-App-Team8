@@ -24,6 +24,7 @@ function WorkoutPage() {
   const [progress, setProgress] = useState(0); // State for progress bar
   const [setsAndReps, setSetsAndReps] = useState(""); // String variable to store the amount of sets and reps required based on user's time input
   const [isWarmupOpen, setIsWarmupOpen] = useState(false);
+  const [selectedWarmups, setSelectedWarmups] = useState([]);
 
   const warmupExercises = [
     { name: 'Jumping Jacks', time: '1 minute' },
@@ -31,7 +32,27 @@ function WorkoutPage() {
     { name: 'Arm Circles', time: '30 seconds' },
     { name: 'Bodyweight Squats', time: '15 reps' },
     { name: 'Leg Swings', time: '10 swings per leg' },
-  ];
+    { name: 'Lunges', time: '12 reps' },
+    { name: 'Plank', time: '30 seconds' },
+    { name: 'Butt Kicks', time: '1 minute' },
+    { name: 'Side Lunges', time: '10 reps per side' },
+    { name: 'Mountain Climbers', time: '30 seconds' },
+    { name: 'Hip Circles', time: '30 seconds per side' },
+    { name: 'Walking Toe Touches', time: '10 steps per leg' },
+    { name: 'Cat-Cow Stretch', time: '30 seconds' },
+    { name: 'Wrist Rolls', time: '20 seconds per wrist' },
+    { name: 'Neck Rolls', time: '15 seconds per side' },
+    { name: 'Shoulder Shrugs', time: '30 seconds' },
+    { name: 'Torso Twists', time: '20 twists' },
+    { name: 'Standing Hamstring Stretch', time: '20 seconds per leg' },
+    { name: 'Calf Raises', time: '15 reps' },
+    { name: 'Ankle Circles', time: '15 seconds per side' }
+];
+
+const getRandomWarmups = (warmups, count) => {
+  const shuffled = [...warmups].sort(() => Math.random() - 0.5);
+  return shuffled.slice(0, count);
+};
 
   useEffect(() => {
     // Check if workoutList has exercises before marking it as loaded
@@ -44,6 +65,8 @@ function WorkoutPage() {
       } else if (workoutTimeInMinutes >= 20 && workoutTimeInMinutes <= 60) {
         setSetsAndReps("3 Sets | 8 Reps");
       }
+
+      setSelectedWarmups(getRandomWarmups(warmupExercises, 5));
     }
   }, [workoutList, workoutTimeInMinutes]);
   
@@ -89,7 +112,7 @@ function WorkoutPage() {
         <p onClick={() => setIsWarmupOpen(!isWarmupOpen)} style={{ cursor: 'pointer' }}>Warmup <span className='arrow-icon'>▼</span></p>
         {isWarmupOpen && (
           <ul className="warmup-list">
-            {warmupExercises.map((exercise, index) => (
+            {selectedWarmups.map((exercise, index) => (
               <li key={index} className='warmup-item'>
                 <p>{exercise.name}</p>
                 <p>{exercise.time}</p>
